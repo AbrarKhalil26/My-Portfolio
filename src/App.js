@@ -1,18 +1,22 @@
-import './App.css';
-import { About, Home, Menu } from "./components";
+import "./App.css";
+import { About, Home, Menu, Projects } from "./components";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className='min-h-screen'>
-      <div className='hero min-h-screen w-full bg-cover bg-no-repeat flex items-center py-20 px-44'>
-        <Home/>
-        <Menu/>
+    <BrowserRouter>
+      <div className="min-h-screen">
+        <Menu /> 
+        <div className="min-h-screen flex flex-col justify-center px-44">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
       </div>
-      <div>
-        <About/>
-      </div>
-    </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
