@@ -13,25 +13,25 @@ export const menu = [
   {
     id: 1,
     title: "Home",
-    url: "/",
+    url: "/My-Portfolio",
     icon: <FaHome />,
   },
   {
     id: 2,
     title: "About",
-    url: "/about",
+    url: "/My-Portfolio/about",
     icon: <MdPerson />,
   },
   {
     id: 3,
     title: "Projects",
-    url: "/projects",
+    url: "/My-Portfolio/projects",
     icon: <GrProjects />,
   },
   {
     id: 4,
     title: "Services",
-    url: "/services",
+    url: "/My-Portfolio/services",
     icon: <LuServer />,
   },
   {
@@ -43,7 +43,7 @@ export const menu = [
   {
     id: 6,
     title: "Contact",
-    url: "/contact",
+    url: "/My-Portfolio/contact",
     icon: <MdOutlineMail />,
   },
 ];

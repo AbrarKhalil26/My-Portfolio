@@ -9,9 +9,9 @@ const App = () => {
         <Menu /> 
         <div className="min-h-screen flex flex-col justify-center px-44">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/My-Portfolio/" element={<Home />} />
+            <Route path="/My-Portfolio/about" element={<About />} />
+            <Route path="/My-Portfolio/projects" element={<Projects />} />
           </Routes>
         </div>
       </div>
