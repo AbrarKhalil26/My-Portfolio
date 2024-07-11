@@ -36,11 +36,14 @@
   bottom: 0;
 }
 
-.about {
+.title {
   position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--heading-color);
 }
 
-.about::before {
+.title::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -51,7 +54,7 @@
   background-color: var(--accent-color);
 }
 
-.about::after {
+.title::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -60,4 +63,8 @@
   height: 2px;
   display: block;
   background-color: var(--accent-color);
+}
+
+.skill .label {
+  display: none !important;
 }
