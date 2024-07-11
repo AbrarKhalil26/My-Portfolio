@@ -103,3 +103,203 @@ export const about = [
     info: new Date().getFullYear() - 2002
   }
 ]
+
+export const skills = [
+  {
+    id: 1,
+    title: 'Soft Skills',
+    Lists: [
+      {
+        id: 1,
+        name: 'Communication',
+        percentage: 95
+      },
+      {
+        id: 2,
+        name: 'Teamwork',
+        percentage: 90
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: 'Programming Languages',
+    Lists: [
+      {
+        id: 1,
+        name: 'C',
+        percentage: 70
+      },
+      {
+        id: 2,
+        name: 'C++',
+        percentage: 80
+      },
+      {
+        id: 3,
+        name: 'Python',
+        percentage: 70
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: 'Frontend',
+    Lists: [
+      {
+        id: 1,
+        name: 'HTML5',
+        percentage: 100
+      },
+      {
+        id: 2,
+        name: 'CSS',
+        percentage: 90
+      },
+      {
+        id: 3,
+        name: 'JavaScript',
+        percentage: 75
+      },
+      {
+        id: 4,
+        name: 'Responsive Web Design',
+        percentage: 85
+      },
+      {
+        id: 5,
+        name: 'API',
+        percentage: 90
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: 'Frameworks',
+    Lists: [
+      {
+        id: 1,
+        name: 'Bootstrap',
+        percentage: 85
+      },
+      {
+        id: 2,
+        name: 'Tailwind CSS',
+        percentage: 90
+      },
+      {
+        id: 3,
+        name: 'Material UI',
+        percentage: 95
+      },
+      {
+        id: 4,
+        name: 'React',
+        percentage: 90
+      },
+      {
+        id: 5,
+        name: 'Redux',
+        percentage: 75
+      },
+      {
+        id: 6,
+        name: 'Redux Toolkit',
+        percentage: 75
+      },
+      {
+        id: 7,
+        name: 'Jest.js',
+        percentage: 70
+      }
+    ]
+  },
+  {
+    id: 5,
+    title: 'Concepts',
+    Lists: [
+      {
+        id: 1,
+        name: 'Data Structure',
+        percentage: 80
+      },
+      {
+        id: 2,
+        name: 'Algorithm',
+        percentage: 80
+      },
+      {
+        id: 3,
+        name: 'Object-Oriented Programming (OOP)',
+        percentage: 80
+      },
+      {
+        id: 4,
+        name: 'Problem Solving',
+        percentage: 85
+      },
+      {
+        id: 5,
+        name: 'Scrum',
+        percentage: 75
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: 'Software & Tools',
+    Lists: [
+      {
+        id: 1,
+        name: 'GitHub',
+        percentage: 85
+      },
+      {
+        id: 2,
+        name: 'Git',
+        percentage: 75
+      },
+      {
+        id: 3,
+        name: 'Jira',
+        percentage: 85
+      },
+      {
+        id: 4,
+        name: 'Firebase',
+        percentage: 80
+      },
+      {
+        id: 5,
+        name: 'Matlab',
+        percentage: 65
+      },
+      {
+        id: 6,
+        name: 'Microsoft Office',
+        percentage: 90
+      },
+      {
+        id: 3,
+        name: 'VS Code',
+        percentage: 80
+      }
+    ]
+  },
+  {
+    id: 7,
+    title: 'Operating Systems',
+    Lists: [
+      {
+        id: 1,
+        name: 'Windows',
+        percentage: 90
+      },
+      {
+        id: 2,
+        name: 'Linux',
+        percentage: 70
+      }
+    ]
+  }
+]
