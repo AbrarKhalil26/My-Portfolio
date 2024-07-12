@@ -1,5 +1,5 @@
-import { FaHome } from "react-icons/fa";
-import { MdPerson } from "react-icons/md";
+import { IoHomeOutline } from "react-icons/io5";
+import { IoPersonOutline } from "react-icons/io5";
 import { HiOutlineDocumentText } from "react-icons/hi2";
 import { GrProjects } from "react-icons/gr";
 import { LuServer } from "react-icons/lu";
@@ -8,19 +8,26 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaCodepen } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { FiPhone } from "react-icons/fi";
+
+
 
 export const menu = [
   {
     id: 1,
     title: "Home",
     url: "/My-Portfolio",
-    icon: <FaHome />,
+    icon: <IoHomeOutline />,
   },
   {
     id: 2,
     title: "About",
     url: "/My-Portfolio/about",
-    icon: <MdPerson />,
+    icon: <IoPersonOutline />,
   },
   {
     id: 3,
@@ -36,8 +43,8 @@ export const menu = [
   },
   {
     id: 5,
-    title: "Resume",
-    url: "/Resume",
+    title: "Resume/CV",
+    url: "/My-Portfolio/resume",
     icon: <HiOutlineDocumentText />,
   },
   {
@@ -301,5 +308,80 @@ export const skills = [
         percentage: 70
       }
     ]
+  }
+]
+
+// export const projects = [
+//   {
+//     id: 1,
+//     title: 'E-commerce Website',
+//     info: 'A fully functional e-commerce website built using React, Redux, Firebase, and Stripe API.',
+//     img: 'https://i.ibb.co/7tZbQX1/e-commerce.png',
+//     url: '
+
+
+export const followMe = [
+  {
+    id: 5,
+    title: 'Github',
+    url: 'https://github.com/AbrarKhalil26',
+    icon: <FaGithub/>
+  },
+  {
+    id: 6,
+    title: 'Frontendmentor',
+    url: 'https://www.frontendmentor.io/profile/AbrarKhalil26',
+    icon: <SiFrontendmentor/>
+  },
+  {
+    id: 7,
+    title: 'Codepen',
+    url: 'https://codepen.io/abrarkhalil26',
+    icon: <FaCodepen/>
+  },
+  {
+    id: 1,
+    title: 'Twitter',
+    url: 'https://x.com/AbrarKh88684926',
+    icon: <FaXTwitter/>
+  },
+  {
+    id: 2,
+    title: 'Facebook',
+    url: 'https://www.facebook.com/basma.star.789?mibextid=LQQJ4d',
+    icon: <FaFacebook/>
+  },
+  {
+    id: 3,
+    title: 'Instagram',
+    url: 'https://www.instagram.com/abrarh18?igsh=MThydmo5bGllbThpcA%3D%3D&utm_source=qr',
+    icon: <FaInstagram/>
+  },
+  {
+    id: 4,
+    title: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/abrarkhalil26/',
+    icon: <FaLinkedin/>
+  },
+]
+
+export const mainFollowMe = [
+  {
+    id: 1,
+    title: 'Address',
+    info: 'Ismailia, Egypt',
+    icon: <IoLocationOutline/>
+  },
+  {
+    id: 2,
+    title: 'Call Us',
+    info: '+201550504283',
+    icon: <FiPhone/>
+  },
+  {
+    id: 3,
+    title: 'Email',
+    info: 'abrarkhalil135@gmail.com',
+    icon: <MdOutlineMail/>
   }
 ]

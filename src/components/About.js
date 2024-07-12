@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='my-36 grid gap-36'>
       <div>
-        <h2 className='title ms-24 mb-7'>About</h2>
+        <h2 className='title'>About</h2>
         <div className='flex gap-16'>
           <div className='flex flex-col gap-8 w-7/12'>
             <p className='text-lg text-gray-500'>
@@ -19,7 +19,17 @@ const About = () => {
                 about.map((item) => {
                   const { id, title, info } = item
                   return (
-                    <p key={id} className='flex items-center gap-3'><IoIosArrowRoundForward/> <sapn className="font-bold">{title}:</sapn> {info}</p>
+                    <p key={id} className='flex items-center gap-3'>
+                      <IoIosArrowRoundForward />
+                      <span className="font-bold">{title}:</span>
+                      {title === 'Email' ? (
+                        <a href={`mailto:abrarkhalil135@gmail.com`} className='hover:text-accentColor'>{info}</a>
+                      ) : title === 'Phone' ? (
+                      <a href={`tel:+201550504283`} className='hover:text-accentColor'>{info}</a>
+                      ) : (
+                        <span>{info}</span>
+                      )}
+                    </p>
                   )
                 })
               }

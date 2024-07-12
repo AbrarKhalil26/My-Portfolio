@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { About, Home, Menu, Projects } from "./components";
+import { About, Contact, Home, Menu, Projects, Resume, Services } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -12,14 +12,12 @@ const App = () => {
     };
     handleResize();
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   };
 
   useEffect(Resize, []);
-  console.log(isMobile);
 
   return (
     <BrowserRouter>
@@ -30,6 +28,10 @@ const App = () => {
             <Route path="/My-Portfolio/" element={<Home isMobile={isMobile}/>} />
             <Route path="/My-Portfolio/about" element={<About />} />
             <Route path="/My-Portfolio/projects" element={<Projects />} />
+            <Route path="/My-Portfolio/services" element={<Services />} />
+            <Route path="/My-Portfolio/resume" element={<Resume />} />
+            <Route path="/My-Portfolio/contact" element={<Contact />} />
+
           </Routes>
         </div>
       </div>

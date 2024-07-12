@@ -39,7 +39,7 @@ const Menu = ({ isMobile }) => {
         </div>
       ) : (
         <ul
-          className="fixed left-0 top-40 flex flex-col gap-2 p-4"
+          className="fixed left-0 top-1/2 -translate-y-1/2 flex flex-col gap-2 p-4"
           style={{ zIndex: 10000 }}
         >
           {menu.map((item) => (
@@ -47,7 +47,7 @@ const Menu = ({ isMobile }) => {
               to={item.url}
               key={item.id}
               className={`text-headingColor hover:text-white bg-bgGray hover:bg-accentColor w-12 h-12 rounded-full p-4 transition-width duration-300 ease-in-out 
-            ${hoveredItemId === item.id ? "w-32" : ""}
+            ${hoveredItemId === item.id ? "w-36" : ""}
             ${location.pathname === item.url ? "activeLink" : ""}
             `}
               onMouseEnter={() => setHoveredItemId(item.id)}
