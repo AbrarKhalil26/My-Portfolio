@@ -33,7 +33,7 @@ const Menu = ({ isMobile }) => {
         onClick={() => setOpenMenu(!openMenu)}
         >
           {openMenu && <Mobile />}
-          <div className="p-3 cursor-pointer hover:rounded-full hover:bg-gray-100 hover:transition-all duration-300">
+          <div className="p-3 cursor-pointer rounded-full bg-white hover:bg-gray-100 hover:transition-all duration-300">
             <IoMenu fontSize="2rem" color="var(--heading-color)" />
           </div>
         </div>
