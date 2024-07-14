@@ -23,10 +23,10 @@ const App = () => {
     <BrowserRouter>
       <div className="min-h-screen">
         <Menu isMobile={isMobile}/> 
-        <div className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-24 lg:px-44">
+        <div className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-24 lg:px-30 xl:px-44 py-28">
           <Routes>
             <Route path="/My-Portfolio/" element={<Home isMobile={isMobile}/>} />
-            <Route path="/My-Portfolio/about" element={<About />} />
+            <Route path="/My-Portfolio/about" element={<About isMobile={isMobile}/>} />
             <Route path="/My-Portfolio/projects" element={<Projects />} />
             <Route path="/My-Portfolio/services" element={<Services />} />
             <Route path="/My-Portfolio/resume" element={<Resume />} />

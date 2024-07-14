@@ -1,20 +1,16 @@
 import React from 'react'
-import styled from 'styled-components';
 import { followMe, mainFollowMe } from '../data/data';
-
-const Title = styled.h2 ` &::after { left: calc(10rem + 105px) }`;
+import { Title } from "../components";
 
 const Contact = () => {
   return (
     <div>
-      <Title className=" title ms-24 mb-16">
-        Contact Us
-      </Title>
+      <Title title='Contact'/>
 
       <p className='text-lg text-gray-500 mb-6'>
         You can contact us with the following information:
       </p>
-      <div className='flex justify-between gap-6'>
+      <div className='flex justify-between gap-6 flex-col xl:flex-row'>
         <div>
           <ul className='text-2xl text-gray-600 flex gap-6 mb-12'>
             {followMe.map((item) => (
@@ -23,7 +19,7 @@ const Contact = () => {
               </li>
             ))}
           </ul>
-          <div className='flex gap-6 flex-col'>
+          <div className='flex gap-6 flex-col md:flex-row xl:flex-col mb-7 xl:mb-0 justify-evenly xl:justify-start'>
             {
               mainFollowMe.map((item) => (
                 <div className='flex gap-4 items-center'>
@@ -46,12 +42,12 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <form className='flex flex-col gap-4 p-10 rounded-lg' style={{ boxShadow: ' 0 0 10px 1px #ddd'}}>
+          <form className='flex flex-col gap-4 p-10 rounded-lg bg-white' style={{ boxShadow: "0px 5px 90px 0px rgba(0, 0, 0, 0.1)" }}>
             <div className='flex gap-4'>
-              <input type='text' placeholder='First Name' className='border-2 border-gray-300 p-2 rounded-md w-1/2' />
-              <input type='text' placeholder='Last Name' className='border-2 border-gray-300 p-2 rounded-md w-1/2' />
+              <input type='text' placeholder='Full Name' className='border-2 border-gray-300 p-2 rounded-md w-1/2' />
+              <input type='email' placeholder='Email' className='border-2 border-gray-300 p-2 rounded-md w-1/2' />
             </div>
-            <input type='email' placeholder='Email' className='border-2 border-gray-300 p-2 rounded-md' />
+            <input type='text' placeholder='Subject' className='border-2 border-gray-300 p-2 rounded-md' />
             <textarea placeholder='Message' className='border-2 border-gray-300 p-2 rounded-md'></textarea>
             <button className='bg-accentColor text-white p-2 rounded-md'>Send</button>
           </form>

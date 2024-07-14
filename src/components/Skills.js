@@ -1,14 +1,13 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { skills } from "../data/data";
+import { Title } from "../components";
 
 const Skills = () => {
   return (
     <div className="skill">
-      <h2 className=" title ms-24 mb-16">
-        Skills
-      </h2>
-      <div className="grid grid-cols-3 gap-10 gap-y-20">
+      <Title title='Skills'/>
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 gap-y-20">
         {skills.map((skill) => (
           <div key={skill.id}>
             <h3 className="text-2xl font-bold text-headingColor">{skill.title}</h3>
