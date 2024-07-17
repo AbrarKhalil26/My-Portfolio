@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.00ae9f50.css",
-    "main.js": "/My-Portfolio/static/js/main.7ce7d3f1.js",
+    "main.css": "/My-Portfolio/static/css/main.b0520cd2.css",
+    "main.js": "/My-Portfolio/static/js/main.e5cff30a.js",
     "static/media/hero-bg copy1.png": "/My-Portfolio/static/media/hero-bg copy1.63b7c86119a7bc349e1d.png",
     "static/media/hero-bg mobile copy.png": "/My-Portfolio/static/media/hero-bg mobile copy.535534e6321f1e5e4d98.png",
     "static/media/food project.jpeg": "/My-Portfolio/static/media/food project.abacf4b51502d728f7e8.jpeg",
     "static/media/fitness project.jpeg": "/My-Portfolio/static/media/fitness project.293c7c389df8cfd4db80.jpeg",
     "static/media/Todo List.png": "/My-Portfolio/static/media/Todo List.441894e722c32ea90250.png",
     "static/media/youtube.jpeg": "/My-Portfolio/static/media/youtube.b3cda0103d0584c505af.jpeg",
+    "static/media/api-7661089-6154191.mp4": "/My-Portfolio/static/media/api-7661089-6154191.e74e2c4ed95d99acd715.mp4",
     "static/media/about.jpg": "/My-Portfolio/static/media/about.778cd9a361a958d38bf0.jpg",
     "static/media/whatsapp.png": "/My-Portfolio/static/media/whatsapp.44de5893c592e6c23c66.png",
+    "static/media/bootstrap.mp4": "/My-Portfolio/static/media/bootstrap.89780702730f4c31c407.mp4",
+    "static/media/github-logo.mp4": "/My-Portfolio/static/media/github-logo.770fda4f4c360dcf9b06.mp4",
+    "static/media/C++ programming language.mp4": "/My-Portfolio/static/media/C++ programming language.290caaed8d6afcf5f235.mp4",
+    "static/media/tailwind-css.mp4": "/My-Portfolio/static/media/tailwind-css.3653e55f4da6ed89c3ba.mp4",
+    "static/media/microsoft-office.mp4": "/My-Portfolio/static/media/microsoft-office.3a85f95ff48f42dc0b06.mp4",
+    "static/media/C programming language.mp4": "/My-Portfolio/static/media/C programming language.150a42f270f8e8c0e428.mp4",
+    "static/media/git.mp4": "/My-Portfolio/static/media/git.814a6979aa49c6eb4b1a.mp4",
+    "static/media/python-logo.mp4": "/My-Portfolio/static/media/python-logo.13c6a0d0a5386683d9e7.mp4",
+    "static/media/javascript-logo.mp4": "/My-Portfolio/static/media/javascript-logo.4fc63423b017c62bbe83.mp4",
     "index.html": "/My-Portfolio/index.html",
-    "main.00ae9f50.css.map": "/My-Portfolio/static/css/main.00ae9f50.css.map",
-    "main.7ce7d3f1.js.map": "/My-Portfolio/static/js/main.7ce7d3f1.js.map"
+    "main.b0520cd2.css.map": "/My-Portfolio/static/css/main.b0520cd2.css.map",
+    "main.e5cff30a.js.map": "/My-Portfolio/static/js/main.e5cff30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.00ae9f50.css",
-    "static/js/main.7ce7d3f1.js"
+    "static/css/main.b0520cd2.css",
+    "static/js/main.e5cff30a.js"
   ]
 }
