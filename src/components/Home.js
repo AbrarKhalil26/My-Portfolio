@@ -57,7 +57,7 @@ const Home = ({ isMobile }) => {
         :
       <img src={heroBg} alt='bg' className='absolute inset-0 block w-full h-full object-cover' style={{ zIndex: 1}}/>
       }
-      <div className='container mx-auto px-4 relative' style={{ zIndex: 3 }}>
+      <div className='container mx-auto px-4 relative' style={{ zIndex: 3 }} data-aos="fade-right" data-aos-duration="500">
         <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold text-headingColor font-heading-font mb-3'>Abrar Hosny</h2>
         <p className='text-2xl text-headingColor mb-8'>
           I'm <TerminalText texts={['Frontend Developer', 'Programmer']} speed={200} />

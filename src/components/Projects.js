@@ -18,6 +18,7 @@ const Projects = () => {
             style={{ boxShadow: "0px 5px 90px 0px rgba(0, 0, 0, 0.1)", maxHeight: '372.5px' }}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
+            data-aos="fade-up" data-aos-duration="1000"
           >
             <img
               src={project.img}

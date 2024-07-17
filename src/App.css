@@ -101,3 +101,23 @@
   background-color: var(--accent-color);
   color: var(--surface-color);
 }
+
+.profilePhoto::before {
+  content: '';
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  background: repeating-conic-gradient(transparent, #0ac 25deg, var(--accent-color) 22.5deg, black 10deg, transparent 90deg);
+  animation: 5s f linear infinite;
+  scale: 1.6;
+}
+@keyframes f {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}

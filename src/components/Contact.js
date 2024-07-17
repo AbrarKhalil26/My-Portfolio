@@ -7,11 +7,11 @@ const Contact = () => {
     <div>
       <Title title='Contact'/>
 
-      <p className='text-lg text-gray-500 mb-6'>
+      <p className='text-lg text-gray-500 mb-6' data-aos="fade-right" data-aos-duration="1000">
         You can contact us with the following information:
       </p>
       <div className='flex justify-between gap-6 flex-col xl:flex-row'>
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1000">
           <ul className='text-2xl text-gray-600 flex gap-6 mb-12'>
             {followMe.map((item) => (
               <li key={item.id} className='hover:text-accentColor'>
@@ -41,7 +41,7 @@ const Contact = () => {
             }
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1000">
           <form className='flex flex-col gap-4 p-10 rounded-lg bg-white' style={{ boxShadow: "0px 5px 90px 0px rgba(0, 0, 0, 0.1)" }}>
             <div className='flex gap-4'>
               <input type='text' placeholder='Full Name' className='border-2 border-gray-300 p-2 rounded-md w-1/2' />

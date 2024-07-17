@@ -42,7 +42,7 @@ const Menu = ({ isMobile }) => {
           className="fixed left-0 top-1/2 -translate-y-1/2 flex flex-col gap-2 p-4"
           style={{ zIndex: 10000 }}
         >
-          {menu.map((item) => (
+          {menu?.map((item) => (
             <NavLink
               to={item.url}
               key={item.id}

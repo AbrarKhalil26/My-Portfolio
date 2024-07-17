@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { About, Contact, Home, Menu, Projects, Resume, Services } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -18,6 +20,9 @@ const App = () => {
   };
 
   useEffect(Resize, []);
+  useEffect(() => {
+    AOS.init({ duration: 2000});
+  }, []);
 
   return (
     <BrowserRouter>

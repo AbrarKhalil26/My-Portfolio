@@ -24,13 +24,27 @@ import { FaDatabase } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { FaBug } from "react-icons/fa6";
 import { GrServicePlay } from "react-icons/gr";
-
+import { FcLinux } from "react-icons/fc";
+import { SiMui } from "react-icons/si";
 
 import foodProject from "../assets/projects/food project.jpeg";
 import whatsappProject from "../assets/projects/whatsapp.png";
 import fitnessProject from "../assets/projects/fitness project.jpeg";
 import YoutubeProject from "../assets/projects/youtube.jpeg";
 import TodoListProject from "../assets/projects/Todo List.png";
+import WindowsIcon from "../assets//Icons/windows.png";
+
+import c1Icon from "../assets/Icons/C programming language.mp4";
+import c2Icon from "../assets/Icons/C++ programming language.mp4";
+import python from "../assets/Icons/python-logo.mp4";
+import javascript from "../assets/Icons/javascript-logo.mp4";
+import apiIcon from "../assets/Icons/api-7661089-6154191.mp4";
+import bootstrapIcon from "../assets/Icons/bootstrap.mp4";
+import tailwindIcon from "../assets/Icons/tailwind-css.mp4";
+import githubIcon from "../assets/Icons/github-logo.mp4";
+import gitIcon from "../assets/Icons/git.mp4";
+import microsoftIcon from "../assets/Icons/microsoft-office.mp4";
+
 
 export const menu = [
   {
@@ -135,105 +149,148 @@ export const skills = [
       {
         id: 1,
         name: "Communication",
-        percentage: 95,
       },
       {
         id: 2,
         name: "Teamwork",
-        percentage: 90,
       },
+      {
+        id: 3,
+        name: "Self-Learning",
+      },
+      {
+        id: 4,
+        name: 'Responsibility',
+      }
     ],
   },
   {
     id: 2,
-    title: "Programming Languages",
+    title: "Skills",
     Lists: [
-      {
-        id: 1,
-        name: "C",
-        percentage: 70,
-      },
-      {
-        id: 2,
-        name: "C++",
-        percentage: 80,
-      },
-      {
-        id: 3,
-        name: "Python",
-        percentage: 70,
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Frontend",
-    Lists: [
-      {
-        id: 1,
-        name: "HTML5",
-        percentage: 100,
-      },
-      {
-        id: 2,
-        name: "CSS",
-        percentage: 90,
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        percentage: 75,
-      },
       {
         id: 4,
-        name: "Responsive Web Design",
-        percentage: 85,
+        name: "C",
+        video: c1Icon
       },
       {
         id: 5,
+        name: "C++",
+        video: c2Icon
+      },
+      {
+        id: 6,
+        name: "Python",
+        video: python
+      },
+      {
+        id: 7,
+        name: "HTML5",
+        video: 'https://cdnl.iconscout.com/lottie/premium/thumb/html-logo-6913842-5673053.mp4'
+      },
+      {
+        id: 8,
+        name: "CSS3",
+        video: 'https://cdnl.iconscout.com/lottie/premium/thumb/css-11903648-9717102.mp4',
+      },
+      {
+        id: 9,
+        name: "JavaScript",
+        video: javascript
+      },
+      {
+        id: 10,
         name: "API",
-        percentage: 90,
+        video: apiIcon
+      },
+      
+      {
+        id: 11,
+        name: "Bootstrap",
+        video: bootstrapIcon,
+      },
+      {
+        id: 12,
+        name: "Tailwind CSS",
+        video: tailwindIcon
+      },
+      {
+        id: 13,
+        name: "Material UI",
+        icon: <SiMui className="text-blue-500"/>,
+      },
+      {
+        id: 14,
+        name: "React",
+        img: 'https://techstack-generator.vercel.app/react-icon.svg'
+      },
+      {
+        id: 15,
+        name: "Redux",
+        img: 'https://techstack-generator.vercel.app/redux-icon.svg'
+      },
+      {
+        id: 16,
+        name: "Jest.js",
+        img: 'https://techstack-generator.vercel.app/jest-icon.svg'
+      },
+    ],
+  },
+  
+  {
+    id: 3,
+    title: "Software & Tools",
+    Lists: [
+      {
+        id: 17,
+        name: "GitHub",
+        img: 'https://techstack-generator.vercel.app/github-icon.svg'
+      },
+      {
+        id: 18,
+        name: "Git",
+        video: gitIcon
+      },
+      {
+        id: 19,
+        name: "Jira",
+        img: 'https://github.com/AbrarKhalil26/AbrarKhalil26/assets/102384647/08b53dd1-3eee-45ee-8b21-53d844578d98'
+      },
+      {
+        id: 20,
+        name: "Firebase",
+        img: 'https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png'
+      },
+      {
+        id: 21,
+        name: "Matlab",
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1144px-Matlab_Logo.png'
+      },
+      {
+        id: 22,
+        name: "Microsoft Office",
+        video: microsoftIcon
+      },
+      {
+        id: 23,
+        name: "VS Code",
+        img: 'https://skillicons.dev/icons?i=vscode'
       },
     ],
   },
   {
     id: 4,
-    title: "Frameworks",
+    title: "Operating Systems",
     Lists: [
       {
-        id: 1,
-        name: "Bootstrap",
-        percentage: 85,
+        id: 30,
+        name: "Windows",
+        img: WindowsIcon,
       },
       {
-        id: 2,
-        name: "Tailwind CSS",
-        percentage: 90,
-      },
-      {
-        id: 3,
-        name: "Material UI",
-        percentage: 95,
-      },
-      {
-        id: 4,
-        name: "React",
-        percentage: 90,
-      },
-      {
-        id: 5,
-        name: "Redux",
-        percentage: 75,
-      },
-      {
-        id: 6,
-        name: "Redux Toolkit",
-        percentage: 75,
-      },
-      {
-        id: 7,
-        name: "Jest.js",
-        percentage: 70,
+        id: 31,
+        name: "Linux",
+        icon: <FcLinux />,
       },
     ],
   },
@@ -242,89 +299,38 @@ export const skills = [
     title: "Concepts",
     Lists: [
       {
-        id: 1,
+        id: 24,
         name: "Data Structure",
         percentage: 80,
       },
       {
-        id: 2,
+        id: 25,
         name: "Algorithm",
         percentage: 80,
       },
       {
-        id: 3,
+        id: 26,
         name: "Object-Oriented Programming (OOP)",
         percentage: 80,
       },
       {
-        id: 4,
+        id: 27,
         name: "Problem Solving",
         percentage: 85,
       },
       {
-        id: 5,
+        id: 28,
         name: "Scrum",
         percentage: 75,
       },
-    ],
-  },
-  {
-    id: 6,
-    title: "Software & Tools",
-    Lists: [
       {
-        id: 1,
-        name: "GitHub",
-        percentage: 85,
-      },
-      {
-        id: 2,
-        name: "Git",
-        percentage: 75,
-      },
-      {
-        id: 3,
-        name: "Jira",
-        percentage: 85,
-      },
-      {
-        id: 4,
-        name: "Firebase",
-        percentage: 80,
-      },
-      {
-        id: 5,
-        name: "Matlab",
-        percentage: 65,
-      },
-      {
-        id: 6,
-        name: "Microsoft Office",
-        percentage: 90,
-      },
-      {
-        id: 3,
-        name: "VS Code",
-        percentage: 80,
+        id: 29,
+        name: "Responsive Web Design",
       },
     ],
   },
-  {
-    id: 7,
-    title: "Operating Systems",
-    Lists: [
-      {
-        id: 1,
-        name: "Windows",
-        percentage: 90,
-      },
-      {
-        id: 2,
-        name: "Linux",
-        percentage: 70,
-      },
-    ],
-  },
+  
+  
 ];
 
 export const projects = [
