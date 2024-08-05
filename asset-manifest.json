@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.b0520cd2.css",
-    "main.js": "/My-Portfolio/static/js/main.e5cff30a.js",
+    "main.css": "/My-Portfolio/static/css/main.343c6b42.css",
+    "main.js": "/My-Portfolio/static/js/main.2de38812.js",
     "static/media/hero-bg copy1.png": "/My-Portfolio/static/media/hero-bg copy1.63b7c86119a7bc349e1d.png",
     "static/media/hero-bg mobile copy.png": "/My-Portfolio/static/media/hero-bg mobile copy.535534e6321f1e5e4d98.png",
     "static/media/food project.jpeg": "/My-Portfolio/static/media/food project.abacf4b51502d728f7e8.jpeg",
@@ -9,6 +9,7 @@
     "static/media/Todo List.png": "/My-Portfolio/static/media/Todo List.441894e722c32ea90250.png",
     "static/media/youtube.jpeg": "/My-Portfolio/static/media/youtube.b3cda0103d0584c505af.jpeg",
     "static/media/api-7661089-6154191.mp4": "/My-Portfolio/static/media/api-7661089-6154191.e74e2c4ed95d99acd715.mp4",
+    "static/media/home.jpeg": "/My-Portfolio/static/media/home.54343c4f2622c7d84864.jpeg",
     "static/media/about.jpg": "/My-Portfolio/static/media/about.778cd9a361a958d38bf0.jpg",
     "static/media/whatsapp.png": "/My-Portfolio/static/media/whatsapp.44de5893c592e6c23c66.png",
     "static/media/bootstrap.mp4": "/My-Portfolio/static/media/bootstrap.89780702730f4c31c407.mp4",
@@ -21,11 +22,11 @@
     "static/media/python-logo.mp4": "/My-Portfolio/static/media/python-logo.13c6a0d0a5386683d9e7.mp4",
     "static/media/javascript-logo.mp4": "/My-Portfolio/static/media/javascript-logo.4fc63423b017c62bbe83.mp4",
     "index.html": "/My-Portfolio/index.html",
-    "main.b0520cd2.css.map": "/My-Portfolio/static/css/main.b0520cd2.css.map",
-    "main.e5cff30a.js.map": "/My-Portfolio/static/js/main.e5cff30a.js.map"
+    "main.343c6b42.css.map": "/My-Portfolio/static/css/main.343c6b42.css.map",
+    "main.2de38812.js.map": "/My-Portfolio/static/js/main.2de38812.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0520cd2.css",
-    "static/js/main.e5cff30a.js"
+    "static/css/main.343c6b42.css",
+    "static/js/main.2de38812.js"
   ]
 }
