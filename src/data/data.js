@@ -27,10 +27,11 @@ import { GrServicePlay } from "react-icons/gr";
 import { FcLinux } from "react-icons/fc";
 import { SiMui } from "react-icons/si";
 
-import foodProject from "../assets/projects/food project.jpeg";
-import whatsappProject from "../assets/projects/whatsapp.png";
 import fitnessProject from "../assets/projects/fitness project.jpeg";
 import YoutubeProject from "../assets/projects/youtube.jpeg";
+import portfolioProject from "../assets/design/home.jpeg";
+import foodProject from "../assets/projects/food project.jpeg";
+import whatsappProject from "../assets/projects/whatsapp.png";
 import TodoListProject from "../assets/projects/Todo List.png";
 import WindowsIcon from "../assets//Icons/windows.png";
 
@@ -336,6 +337,33 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "Fitness Project",
+    info: "The Fitness Club identifies the part of your body that you want to exercise. It shows you information (benefits) about this exercise and how to do it through pictures and videos.",
+    languageUsed: ["Css", "React.js", "Material UI", "Rabid API"],
+    img: fitnessProject,
+    url: "https://github.com/AbrarKhalil26/Fitness-Project",
+    demo: "https://abrarkhalil26.github.io/Fitness-Project/",
+  },
+  {
+    id: 2,
+    title: "YouTube-Project",
+    info: "The YouTube Application is a dynamic web, it is similar to the real YouTube in terms of its display of channels and videos of various types",
+    languageUsed: ["Css", "React.js", "Material UI", "Rabid API"],
+    img: YoutubeProject,
+    url: "https://github.com/AbrarKhalil26/YouTube-Project",
+    demo: "https://abrarkhalil26.github.io/YouTube-Project/",
+  },
+  {
+    id: 2,
+    title: "My Portfolio",
+    info: "My Portfolio is a personal website that showcases my projects, skills, and contact information.",
+    languageUsed: ["Css", "Tailwind", "React.js"],
+    img: portfolioProject,
+    url: "https://github.com/AbrarKhalil26/My-Portfolio",
+    demo: "https://abrarkhalil26.github.io/My-Portfolio/",
+  },
+  {
+    id: 3,
     title: "Food Project",
     info: "The Food Ordering Application is a dynamic web, It is a restaurant that provides you with the food, details about it and allows you to place an order with the food you prefer",
     languageUsed: [
@@ -350,31 +378,13 @@ export const projects = [
     demo: "https://abrarkhalil26.github.io/Food_Project/",
   },
   {
-    id: 2,
+    id: 4,
     title: "WhatsApp Project",
     info: "WhatsApp is a messaging app that allows users to send text and multimedia messages instantly. It offers a simple and secure way to communicate with individuals and groups globally.",
     languageUsed: ["Css", "React.js", "Firebase"],
     img: whatsappProject,
     url: "https://github.com/AbrarKhalil26/WhatsApp-Project",
     demo: "https://abrarkhalil26.github.io/WhatsApp-Project/",
-  },
-  {
-    id: 3,
-    title: "Fitness Project",
-    info: "The Fitness Club identifies the part of your body that you want to exercise. It shows you information (benefits) about this exercise and how to do it through pictures and videos.",
-    languageUsed: ["Css", "React.js", "Material UI", "Rabid API"],
-    img: fitnessProject,
-    url: "https://github.com/AbrarKhalil26/Fitness-Project",
-    demo: "https://abrarkhalil26.github.io/Fitness-Project/",
-  },
-  {
-    id: 4,
-    title: "YouTube-Project",
-    info: "The YouTube Application is a dynamic web, it is similar to the real YouTube in terms of its display of channels and videos of various types",
-    languageUsed: ["Css", "React.js", "Material UI", "Rabid API"],
-    img: YoutubeProject,
-    url: "https://github.com/AbrarKhalil26/YouTube-Project",
-    demo: "https://abrarkhalil26.github.io/YouTube-Project/",
   },
   {
     id: 5,

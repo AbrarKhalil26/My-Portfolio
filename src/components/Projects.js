@@ -15,7 +15,7 @@ const Projects = () => {
           <div
             key={project.id}
             className="relative max-w-xs md:max-w-full bg-white rounded-lg overflow-hidden border-2 border-gray-200"
-            style={{ boxShadow: "0px 5px 90px 0px rgba(0, 0, 0, 0.1)", maxHeight: '372.5px' }}
+            style={{ boxShadow: "0px 5px 90px 0px rgba(0, 0, 0, 0.1)", maxHeight: '200px' }}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
             data-aos="fade-up" data-aos-duration="1000"
