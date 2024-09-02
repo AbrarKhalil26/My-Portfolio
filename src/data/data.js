@@ -367,14 +367,10 @@ export const projects = [
     title: "Food Project",
     info: "The Food Ordering Application is a dynamic web, It is a restaurant that provides you with the food, details about it and allows you to place an order with the food you prefer",
     languageUsed: [
-      "Css",
-      "Bootstrap",
-      "React.js",
-      "Firebase",
-      "API integration",
+      "React.js", "Redux Toolkit", "Firebase", "API integration", "Tailwind"
     ],
     img: foodProject,
-    url: "https://github.com/AbrarKhalil26/Food_Project",
+    url: "https://github.com/AbrarKhalil26/Food-Project",
     demo: "https://abrarkhalil26.github.io/Food_Project/",
   },
   {
