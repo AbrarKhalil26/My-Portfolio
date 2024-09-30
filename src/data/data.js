@@ -336,6 +336,17 @@ export const skills = [
 
 export const projects = [
   {
+    id: 3,
+    title: "Recipe-App",
+    info: "Build a recipe app where users can search for recipes by ingredients, cuisine, or meal type. Allow users to save their favorite recipes and create shopping lists.",
+    languageUsed: [
+      "React.js", "Redux Toolkit", "Firebase", "API integration", "Tailwind"
+    ],
+    img: "https://github.com/AbrarKhalil26/Recipe-App/raw/main/design/Home.jpeg",
+    url: "https://github.com/AbrarKhalil26/Recipe-App",
+    demo: "https://abrarkhalil26.github.io/Recipe-App/",
+  },
+  {
     id: 1,
     title: "Fitness Project",
     info: "The Fitness Club identifies the part of your body that you want to exercise. It shows you information (benefits) about this exercise and how to do it through pictures and videos.",
@@ -361,17 +372,6 @@ export const projects = [
     img: portfolioProject,
     url: "https://github.com/AbrarKhalil26/My-Portfolio",
     demo: "https://abrarkhalil26.github.io/My-Portfolio/",
-  },
-  {
-    id: 3,
-    title: "Food Project",
-    info: "The Food Ordering Application is a dynamic web, It is a restaurant that provides you with the food, details about it and allows you to place an order with the food you prefer",
-    languageUsed: [
-      "React.js", "Redux Toolkit", "Firebase", "API integration", "Tailwind"
-    ],
-    img: foodProject,
-    url: "https://github.com/AbrarKhalil26/Food-Project",
-    demo: "https://abrarkhalil26.github.io/Food_Project/",
   },
   {
     id: 4,
