@@ -383,6 +383,15 @@ export const projects = [
     demo: "https://abrarkhalil26.github.io/WhatsApp-Project/",
   },
   {
+    id: 10,
+    title: "Connect-4 Game",
+    info: "A Connect-4 game in React is a two-player strategy game where players alternate turns to drop colored discs into a 7x6 grid, aiming to connect four discs in a row horizontally, vertically, or diagonally. The game uses React state to manage the grid, track turns, and determine the winner.",
+    languageUsed: ["Css", "React.js"],
+    img: "https://github.com/AbrarKhalil26/connect-4-game/raw/main/design/design.jpeg",
+    url: "https://github.com/AbrarKhalil26/connect-4-game",
+    demo: "https://abrarkhalil26.github.io/connect-4-game/",
+  },
+  {
     id: 5,
     title: "Social Media Dashboard",
     info: "Social Media Dashboard displaying follower statistics and engagement metrics for various social media platforms. It includes a dark mode toggle and presents data for page views, likes, retweets, and profile views in both light and dark themes.",
