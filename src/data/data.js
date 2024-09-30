@@ -51,37 +51,37 @@ export const menu = [
   {
     id: 1,
     title: "Home",
-    url: "/My-Portfolio",
+    url: "/",
     icon: <IoHomeOutline />,
   },
   {
     id: 2,
     title: "About",
-    url: "/My-Portfolio/about",
+    url: "/about",
     icon: <IoPersonOutline />,
   },
   {
     id: 3,
     title: "Projects",
-    url: "/My-Portfolio/projects",
+    url: "/projects",
     icon: <GrProjects />,
   },
   {
     id: 4,
     title: "Services",
-    url: "/My-Portfolio/services",
+    url: "/services",
     icon: <LuServer />,
   },
   {
     id: 5,
     title: "Resume/CV",
-    url: "/My-Portfolio/resume",
+    url: "/resume",
     icon: <HiOutlineDocumentText />,
   },
   {
     id: 6,
     title: "Contact",
-    url: "/My-Portfolio/contact",
+    url: "/contact",
     icon: <MdOutlineMail />,
   },
 ];
