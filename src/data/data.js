@@ -337,7 +337,7 @@ export const skills = [
 export const projects = [
   {
     id: 3,
-    title: "Recipe-App",
+    title: "Recipe App",
     info: "Build a recipe app where users can search for recipes by ingredients, cuisine, or meal type. Allow users to save their favorite recipes and create shopping lists.",
     languageUsed: [
       "React.js", "Redux Toolkit", "Firebase", "API integration", "Tailwind"
@@ -357,7 +357,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "YouTube-Project",
+    title: "YouTube Project",
     info: "The YouTube Application is a dynamic web, it is similar to the real YouTube in terms of its display of channels and videos of various types",
     languageUsed: ["Css", "React.js", "Material UI", "Rabid API"],
     img: YoutubeProject,
